@@ -335,6 +335,14 @@ const categories = [
       { name: "Medimix (3 x 125g set)", price: 145 },
     ]
   },
+  {
+    name: "Detergent"
+    items: [
+  {name: "Henko",price: 200}
+  {name: "Surf Excel",price: 220}
+  {name: "Wheel",price: 300}
+    ]
+  }
 ];
 
 const container = document.getElementById("shop-categories");
