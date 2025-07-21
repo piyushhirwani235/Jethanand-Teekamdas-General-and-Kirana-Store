@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Items</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="module" src="js/shop.js" defer></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="shop.html">Shop</a> |
+    <a href="orders.html">Orders</a> |
+    <a href="admin-login.html">Admin Login</a>
+  </nav>
+
+  <div class="container">
+    <!-- Go to Cart button at the top -->
+    <a href="cart.html"><button>Go to Cart</button></a>
+
+    <h1>Shop by Categories</h1>
+
+    <!-- Search bar -->
+    <input type="text" id="searchBar" placeholder="Search items..." style="width:100%;padding:10px;margin-bottom:20px;border-radius:6px;border:1px solid #ccc;">
+
+    <div id="shop-categories"></div>
+  </div>
+
+  <!-- Image Modal -->
+  <div id="imageModal" class="modal">
+    <span id="closeModal" class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+  </div>
+</body>
+</html>

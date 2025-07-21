@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="module" src="js/cart.js" defer></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="shop.html">Shop</a> |
+    <a href="orders.html">Orders</a> |
+    <a href="admin-login.html">Admin Login</a>
+  </nav>
+
+  <main>
+    <h1>Your Cart</h1>
+    <div id="cartItems"></div>
+    <p><strong>Total: ₹<span id="totalAmount">0</span></strong></p>
+
+    <form id="orderForm">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" required /><br /><br />
+
+      <label for="mobile">Mobile Number:</label><br />
+      <input type="tel" id="mobile" placeholder="XXXXXXXXXX" pattern="[0-9]{10}" required /><br /><br />
+
+      <label for="address">Address:</label><br />
+      <textarea id="address" required></textarea><br /><br />
+
+      <p><strong>Scan to Pay:</strong></p>
+      <img src="BOBscanner.jpg" alt="Payment QR Code" width="200" /><br /><br />
+
+      <!-- Payment checkbox made optional (removed required) -->
+      <label>
+        <input type="checkbox" id="paidCheckbox" /> Payment Completed (Paid)
+      </label><br /><br />
+
+      <button type="submit">Place Order</button>
+    </form>
+
+    <button id="continueShoppingBtn">Continue Shopping</button>
+  </main>
+</body>
+</html>
