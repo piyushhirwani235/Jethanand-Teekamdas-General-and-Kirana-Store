@@ -338,8 +338,8 @@ const categories = [
   {
     name: "Detergent",
     items: [
-  {name: "Henko",price: 200}
-  {name: "Surf Excel",price: 220}
+  {name: "Henko",price: 200},
+  {name: "Surf Excel",price: 220},
   {name: "Wheel",price: 300}
     ]
   }
