@@ -1,6 +1,6 @@
 const categories = [
   {
-    name: "Groceries-Atta",
+    name: "Groceries-Aata",
     items: [
       { name: "Aashirvaad 10kg", price: 450, image: "images/Groceries-aata/aashirvad10kg.jpg" },
       { name: "Aashirvaad 5kg", price: 230, image: "images/Groceries-aata/aashirvad10kg.jpg" },
@@ -339,15 +339,21 @@ const categories = [
 
 const container = document.getElementById("shop-categories");
 
+// Render function to display filtered categories/items
 function renderCategories(filterText = "") {
   container.innerHTML = "";
 
   categories.forEach((category, catIdx) => {
+    // Check if category name matches search text
+    const categoryMatches = category.name.toLowerCase().includes(filterText.toLowerCase());
+
+    // Filter items based on search text
     const filteredItems = category.items.filter(item =>
       item.name.toLowerCase().includes(filterText.toLowerCase())
     );
 
-    if (filteredItems.length > 0) {
+    // If category matches or any item matches, display category
+    if (categoryMatches || filteredItems.length > 0) {
       const catDiv = document.createElement("div");
       catDiv.className = "category";
       catDiv.innerHTML = `
@@ -357,7 +363,11 @@ function renderCategories(filterText = "") {
       container.appendChild(catDiv);
 
       const itemsContainer = catDiv.querySelector(`#items${catIdx}`);
-      filteredItems.forEach((item, idx) => {
+
+      // Show all items if category name matches, else show filtered items
+      const itemsToShow = categoryMatches ? category.items : filteredItems;
+
+      itemsToShow.forEach((item, idx) => {
         const itemDiv = document.createElement("div");
         itemDiv.className = "item";
         itemDiv.innerHTML = `
@@ -375,6 +385,8 @@ function renderCategories(filterText = "") {
       });
     }
   });
+
+  // Reattach toggle listeners
   document.querySelectorAll('.category-header').forEach(header => {
     header.addEventListener('click', () => {
       const index = header.dataset.index;
@@ -391,18 +403,22 @@ function renderCategories(filterText = "") {
   });
 }
 
+// Initial render
 renderCategories();
 
+// Add to cart function with notification
 window.addToCart = (catIdx, itemIdx) => {
   const qty = parseInt(document.getElementById(`qty${catIdx}_${itemIdx}`).value);
-  if (qty < 1) return alert("Invalid quantity");
+  if (qty < 1) return showNotification("Invalid quantity");
 
   const item = categories[catIdx].items[itemIdx];
   let cart = JSON.parse(localStorage.getItem("cart") || "[]");
   cart.push({ ...item, quantity: qty });
   localStorage.setItem("cart", JSON.stringify(cart));
-  alert("Added to cart");
+  showNotification("Item added to cart");
 };
+
+// Image modal functionality
 window.expandImage = (src) => {
   const modal = document.getElementById("imageModal");
   const modalImg = document.getElementById("modalImg");
@@ -421,6 +437,18 @@ window.onclick = function(event) {
   }
 };
 
+// Search bar event listener
 document.getElementById("searchBar").addEventListener("input", (e) => {
   renderCategories(e.target.value);
 });
+
+// Notification function
+function showNotification(message) {
+  const notification = document.getElementById("notification");
+  notification.textContent = message;
+  notification.style.display = "block";
+
+  setTimeout(() => {
+    notification.style.display = "none";
+  }, 2000);
+}

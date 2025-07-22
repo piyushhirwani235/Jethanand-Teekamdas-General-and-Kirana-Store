@@ -201,3 +201,17 @@ input[type='checkbox'] {
     max-width: 250px;
   }
 }
+.notification {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 999;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
