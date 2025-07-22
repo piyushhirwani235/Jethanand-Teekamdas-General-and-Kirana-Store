@@ -335,14 +335,6 @@ const categories = [
       { name: "Medimix (3 x 125g set)", price: 145 },
     ]
   },
-  {
-    name: "Bathingalpha",
-    items:[
-      { name: "Lipstick", price: 25 },
-      { name: "Makeup", price: 250 },
-      { name: "Kaju", price: 20 },
-    ]
-  },
 ];
 
 const container = document.getElementById("shop-categories");
