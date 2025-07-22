@@ -336,7 +336,7 @@ const categories = [
     ]
   },
   {
-    name: "Detergent"
+    name: "Detergent",
     items: [
   {name: "Henko",price: 200}
   {name: "Surf Excel",price: 220}
