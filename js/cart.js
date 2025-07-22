@@ -6,36 +6,63 @@ document.addEventListener('DOMContentLoaded', () => {
   const totalAmountElement = document.getElementById('totalAmount');
   const orderForm = document.getElementById('orderForm');
   const continueShoppingBtn = document.getElementById('continueShoppingBtn');
+  const clearCartBtn = document.getElementById('clearCartBtn');
   let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
   function renderCart() {
     cartItemsContainer.innerHTML = '';
     let total = 0;
+
     cart.forEach((item, idx) => {
       const itemTotal = item.price * item.quantity;
       total += itemTotal;
-      cartItemsContainer.innerHTML += `
-        <div>
-          <p><strong>${item.name}</strong> - ₹${item.price} x 
-          <input type="number" min="1" value="${item.quantity}" data-index="${idx}" class="quantityInput" style="width:50px;"> 
-          = ₹${itemTotal}</p>
-          <hr>
-        </div>
+
+      const itemDiv = document.createElement('div');
+      itemDiv.innerHTML = `
+        <p>
+          <strong>${item.name}</strong> - ₹${item.price} x 
+          <input type="number" min="1" value="${item.quantity}" data-index="${idx}" class="quantityInput" style="width: 50px;">
+          = ₹${itemTotal}
+          <button class="removeBtn" data-index="${idx}">Remove</button>
+        </p>
+        <hr>
       `;
+      cartItemsContainer.appendChild(itemDiv);
     });
+
     totalAmountElement.textContent = total;
     localStorage.setItem('cart', JSON.stringify(cart));
   }
+
+  // Handle quantity change
   cartItemsContainer.addEventListener('input', (e) => {
     if (e.target.classList.contains('quantityInput')) {
       const index = e.target.dataset.index;
       const newQty = parseInt(e.target.value);
-      if (newQty < 1) return alert('Quantity must be at least 1');
+      if (newQty < 1) return alert("Quantity must be at least 1");
       cart[index].quantity = newQty;
       renderCart();
     }
   });
 
+  // Handle remove item click
+  cartItemsContainer.addEventListener('click', (e) => {
+    if (e.target.classList.contains('removeBtn')) {
+      const index = e.target.dataset.index;
+      cart.splice(index, 1);
+      renderCart();
+    }
+  });
+
+  // Handle clear cart click
+  clearCartBtn.addEventListener('click', () => {
+    if (confirm("Are you sure you want to clear the entire cart?")) {
+      cart = [];
+      renderCart();
+    }
+  });
+
+  // Handle order form submission
   orderForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const name = document.getElementById('name').value;
