@@ -36,76 +36,76 @@ const categories = [
   {
     name: "Groceries-Masale",
     items: [
-      { name: "Tata Namak 1kg", price: 28, image: "images/tatanamak1kg.jpg" },
-      { name: "Tata Namak 2kg", price: 55, image: "images/tatanamak2kg.jpg" },
-      { name: "Tata Himalayan Rock Salt 1kg", price: 95, image: "images/tatarocksalt1kg.jpg" },
-      { name: "Tata Rock Salt 1kg", price: 60, image: "images/tatarocksalt1kg.jpg" },
-      { name: "Tata Lite Salt 1kg", price: 50, image: "images/tatalitesalt1kg.jpg" },
-      { name: "Tata I Shakti Salt 1kg", price: 10, image: "images/tataishaktisalt1kg.jpg" },
-      { name: "Goyal Salt 1kg", price: 10, image: "images/goaylsalt1kg.jpg" },
-      { name: "Aashirvaad Salt 1kg", price: 25, image: "images/aashirvaadsalt1kg.jpg" },
-      { name: "Rock Salt 1kg", price: 50, image: "images/rocksalt1kg.jpg" },
-      { name: "Rock Salt 200g", price: 15, image: "images/rocksalt200g.jpg" },
-      { name: "Black Salt 200g", price: 15, image: "images/blacksalt200g.jpg" },
-      { name: "Amchur 250g", price: 80, image: "images/amchur250g.jpg" },
-      { name: "Sonu Amchur 100g", price: 25, image: "images/sonuamchur100g.jpg" },
-      { name: "Annkoot Amchur 100g", price: 40, image: "images/annkootamchur100g.jpg" },
-      { name: "Everest Tikhalal 500gm", price: 230, image: "images/everesttikhalal500gm.jpg" },
-      { name: "Everest Tikhalal 200gm", price: 110, image: "images/everesttikhalal200gm.jpg" },
-      { name: "Everest Dhania 500gm", price: 170, image: "images/everestdhania500gm.jpg" },
-      { name: "Everest Dhania 200gm", price: 70, image: "images/everestdhania200gm.jpg" },
-      { name: "Everest Haldi 500gm", price: 200, image: "images/everesthaldi500gm.jpg" },
-      { name: "Everest Haldi 500gm", price: 85, image: "images/everesthaldi200gm.jpg" },
-      { name: "Hatadi Mirch 500gm", price: 120, image: "images/hatadimirch500gm.jpg" },
-      { name: "Hatadi Mirch 200gm", price: 50, image: "images/hatadimirch200gm.jpg" },
-      { name: "Hatadi Haldi 500gm", price: 125, image: "images/hatadihaldi500gm.jpg" },
-      { name: "Hatadi Haldi 200gm", price: 55, image: "images/hatadihaldi200gm.jpg" },
-      { name: "Hatadi Dhania 500gm", price: 80, image: "images/hatadidhania500gm.jpg" },
-      { name: "Hatadi Dhania 200gm", price: 40, image: "images/hatadidhania200gm.jpg" },
-      { name: "Kasuri Methi 100gm", price: 95, image: "images/kasurimethi100gm.jpg" },
-      { name: "Kasuri Methi 50gm", price: 55, image: "images/kasurimethi50gm.jpg" },
-      { name: "Kasuri Methi 20gm", price: 30, image: "images/kasurimethi20gm.jpg" },
-      { name: "Gandhi Aachar Masala 250gm", price: 40, image: "images/gandhiaacharmasala250gm.jpg" },
-      { name: "Sabut Garam Masala 100gm", price: 100, image: "images/sabutgarammasala100gm.jpg" },
-      { name: "Sambhar Masala 100gm", price: 75, image: "images/sambharmasala100gm.jpg" },
-      { name: "Sambhar Masala 50gm", price: 40, image: "images/sambharmasala50gm.jpg" },
-      { name: "Pav Bhaji Masala 100gm", price: 85, image: "images/pavbhajimasala100gm.jpg" },
-      { name: "Pav Bhaji Masala 50gm", price: 45, image: "images/pavbhajimasala50gm.jpg" },
-      { name: "Chicken Masala 100gm", price: 85, image: "images/chickenmasala100gm.jpg" },
-      { name: "Chicken Masala 50gm", price: 45, image: "images/chickenmasala50gm.jpg" },
-      { name: "Meat Masala 100gm", price: 86, image: "images/meatmasala100gm.jpg" },
-      { name: "Meat Masala 50gm", price: 45, image: "images/meatmasala50gm.jpg" },
-      { name: "Garam Masala 100gm", price: 90, image: "images/garammasala100gm.jpg" }, 
-      { name: "Garam Masala 50gm", price: 50, image: "images/garammasala50gm.jpg" }, 
-      { name: "Chat Masala 100gm", price: 75, image: "images/chatmasala100gm.jpg" }, 
-      { name: "Chat Masala 50gm", price: 40, image: "images/chatmasala50gm.jpg" }, 
-      { name: "Kitchen King Masala 100gm", price: 90, image: "images/kitchenkingmasala100gm.jpg" }, 
-      { name: "Kitchen King Masala 50gm", price: 45, image: "images/kitchenkingmasala50gm.jpg" }, 
-      { name: "Chole Masala 100gm", price: 83, image: "images/cholemasala100gm.jpg" }, 
-      { name: "Chole Masala 50gm", price: 45, image: "images/cholemasala50gm.jpg" }, 
-      { name: "Shahi Paneer Masala 100gm", price: 92, image: "images/shahipaneermasala100gm.jpg" }, 
-      { name: "Shahi Paneer Masala 50gm", price: 48, image: "images/shahipaneermasala50gm.jpg" }, 
-      { name: "Shahi Biryani Masala 100gm", price: 160, image: "images/shahibiryanimasala100gm.jpg" }, 
-      { name: "Shahi Biryani Masala 50gm", price: 75, image: "images/shahibiryanimasala50gm.jpg" }, 
-      { name: "Rajma Masala 100gm", price: 77, image: "images/rajmamasala100gm.jpg" }, 
-      { name: "Rajma Masala 50gm", price: 40, image: "images/rajmamasala50gm.jpg" }, 
-      { name: "Kashmiri Lal Mirch 100gm", price: 95, image: "images/kashmirilalmirch100gm.jpg" },
-      { name: "Sabji Masala 100gm", price: 65, image: "images/sabjimasala100gm.jpg" }, 
-      { name: "Sabji Masala 50gm", price: 35, image: "images/sabjimasala50gm.jpg" }, 
-      { name: "Cumin Powder 100gm", price: 95, image: "images/cuminpowder100gm.jpg" }, 
-      { name: "Cumin Powder 50gm", price: 50, image: "images/cuminpowder50gm.jpg" }, 
-      { name: "Tea Masala 100gm", price: 120, image: "images/teamasala100gm.jpg" },
-      { name: "Pani Puri Masala 50gm", price: 38, image: "images/panipurimasala50gm.jpg" }, 
-      { name: "Aalo Sabji Masala 50gm", price: 42, image: "images/aalosabjimasala50gm.jpg" }, 
-      { name: "Dry ginger(sonth) Powder 50gm", price: 45, image: "images/drygingerpowder50gm.jpg" },
-      { name: "Black Pepper Powder 50gm", price: 75, image: "images/blackpepperpowder50gm.jpg" },
-      { name: "Jalani Too Good Masala(pack of 10)", price: 50, image: "images/blackpepperpowder50gm.jpg" },
-      { name: "Meggi Masala", price: 5, image: "images/meggimasala.jpg" },
-      { name: "Pasta Masala", price: 5, image: "images/pastamasala.jpg" },
-      { name: "Peri Peri Masala", price: 5, image: "images/periperimasala.jpg" },
-      { name: "Fried Rice Masala", price: 10, image: "images/friedricemasala.jpg" },
-      { name: "Chouwmien Masala", price: 10, image: "images/chouwmienmasala.jpg" },
-      { name: "Veg Manchurian Masala", price: 10, image: "images/vegmanchurianmasala.jpg" },
+      { name: "Tata Namak 1kg", price: 28, image: "images/Groceries-Masale/tatasalt1kg.png" },
+      { name: "Tata Namak 2kg", price: 55, image: "images/Groceries-Masale/tatasalt1kg.png" },
+      { name: "Tata Himalayan Rock Salt 1kg", price: 95, image: "images/Groceries-Masale/tatahimalyanrocksalt.png" },
+      { name: "Tata Rock Salt 1kg", price: 60, image: "images/Groceries-Masale/tatarocksalt.png" },
+      { name: "Tata Lite Salt 1kg", price: 50, image: "images/Groceries-Masale/tatalitesalt.png" },
+      { name: "Tata I Shakti Salt 1kg", price: 10, image: "images/Groceries-Masale/tataishaktisalt1kg.png" },
+      { name: "Aashirvaad Salt 1kg", price: 25, image: "images/Groceries-Masale/aashirvaadsalt1kg.png" },
+      { name: "Rock Salt 1kg", price: 50, image: "images/Groceries-Masale/rocksalt1kg.png" },
+      { name: "Rock Salt 200g", price: 15, image: "images/Groceries-Masale/rocksalt200g.png" },
+      { name: "Black Salt 1kg", price: 15, image: "images/Groceries-Masale/blacksalt1kg.jpg" },
+      { name: "Black Salt 200g", price: 15, image: "images/Groceries-Masale/blacksalt1kg.jpg" },
+      { name: "Amchur 250g", price: 80, image: "images/Groceries-Masale/amchur250g.png" },
+      { name: "Sonu Amchur 100g", price: 25, image: "images/Groceries-Masale/sonuamchur100g.png" },
+      { name: "Annkoot Amchur 100g", price: 40, image: "images/Groceries-Masale/annkootamchur100g.png" },
+      { name: "Everest Tikhalal 500gm", price: 230, image: "images/Groceries-Masale/everesttikhalal500g.png" },
+      { name: "Everest Tikhalal 200gm", price: 110, image: "images/Groceries-Masale/everesttikhalal500g.png" },
+      { name: "Everest Dhania 500gm", price: 170, image: "images/Groceries-Masale/everestdhania500g.png" },
+      { name: "Everest Dhania 200gm", price: 70, image: "images/Groceries-Masale/everestdhania500g.png" },
+      { name: "Everest Haldi 500gm", price: 200, image: "images/Groceries-Masale/everesthaldi500g.png" },
+      { name: "Everest Haldi 500gm", price: 85, image: "images/Groceries-Masale/everesthaldi500g.png" },
+      { name: "Hatadi Mirch 500gm", price: 120, image: "images/Groceries-Masale/hatadimirch500g.png" },
+      { name: "Hatadi Mirch 200gm", price: 50, image: "images/Groceries-Masale/hatadimirch500g.png" },
+      { name: "Hatadi Haldi 500gm", price: 125, image: "images/Groceries-Masale/hatadihaldi500g.png" },
+      { name: "Hatadi Haldi 200gm", price: 55, image: "images/Groceries-Masale/hatadihaldi500g.png" },
+      { name: "Hatadi Dhania 500gm", price: 80, image: "images/Groceries-Masale/hatadidhania500gm.png" },
+      { name: "Hatadi Dhania 200gm", price: 40, image: "images/Groceries-Masale/hatadidhania500gm.png" },
+      { name: "Everest Kasuri Methi 100gm", price: 95, image: "images/Groceries-Masale/everestkasurimethi100g.png" },
+      { name: "Everest Kasuri Methi 50gm", price: 55, image: "images/Groceries-Masale/everestkasurimethi100g.png" },
+      { name: "Everest Kasuri Methi 25gm", price: 30, image: "images/Groceries-Masale/everestkasurimethi25g.png" },
+      { name: "Gandhi Aachar Masala 250gm", price: 40, image: "images/Groceries-Masale/gandhiaacharmasala.png" },
+      { name: "Sabut Garam Masala 100gm", price: 100, image: "images/Groceries-Masale/sabutgarammasala.png" },
+      { name: "Sambhar Masala 100gm", price: 75, image: "images/Groceries-Masale/everestsambharmasala100g.png" },
+      { name: "Sambhar Masala 50gm", price: 40, image: "images/Groceries-Masale/everestsambharmasala100g.png" },
+      { name: "Pav Bhaji Masala 100gm", price: 85, image: "images/Groceries-Masale/everestpavbhajimasala100g.png" },
+      { name: "Pav Bhaji Masala 50gm", price: 45, image: "images/Groceries-Masale/everestpavbhajimasala100g.png" },
+      { name: "Chicken Masala 100gm", price: 85, image: "images/Groceries-Masale/everestchickenmasala100g.png" },
+      { name: "Chicken Masala 50gm", price: 45, image: "images/Groceries-Masale/everestchickenmasala100g.png" },
+      { name: "Meat Masala 100gm", price: 86, image: "images/Groceries-Masale/everestmeatmasala100g.png" },
+      { name: "Meat Masala 50gm", price: 45, image: "images/Groceries-Masale/everestmeatmasala100g.png" },
+      { name: "Garam Masala 100gm", price: 90, image: "images/Groceries-Masale/everestgarammasala100gm.png" }, 
+      { name: "Garam Masala 50gm", price: 50, image: "images/Groceries-Masale/everestgarammasala100gm.png" }, 
+      { name: "Chat Masala 100gm", price: 75, image: "images/Groceries-Masale/everestchatmasala100g.png" }, 
+      { name: "Chat Masala 50gm", price: 40, image: "images/Groceries-Masale/everestchatmasala100g.png" }, 
+      { name: "Kitchen King Masala 100gm", price: 90, image: "images/Groceries-Masale/everestkitchenkingmasala100g.png" }, 
+      { name: "Kitchen King Masala 50gm", price: 45, image: "images/Groceries-Masale/everestkitchenkingmasala100g.png" }, 
+      { name: "Chole Masala 100gm", price: 83, image: "images/Groceries-Masale/everestcholemasala100g.png" }, 
+      { name: "Chole Masala 50gm", price: 45, image: "images/Groceries-Masale/everestcholemasala100g.png" }, 
+      { name: "Shahi Paneer Masala 100gm", price: 92, image: "images/Groceries-Masale/everestshahipaneermasala100g.png" }, 
+      { name: "Shahi Paneer Masala 50gm", price: 48, image: "images/Groceries-Masale/everestshahipaneermasala100g.png" }, 
+      { name: "Shahi Biryani Masala 100gm", price: 160, image: "images/Groceries-Masale/everestshahibiryanimasala100g.png" }, 
+      { name: "Shahi Biryani Masala 50gm", price: 75, image: "images/Groceries-Masale/everestshahibiryanimasala100g.png" }, 
+      { name: "Rajma Masala 100gm", price: 77, image: "images/Groceries-Masale/everestrajmamasala100g.png" }, 
+      { name: "Rajma Masala 50gm", price: 40, image: "images/Groceries-Masale/everestrajmamasala100g.png" }, 
+      { name: "Kashmiri Lal Mirch 100gm", price: 95, image: "images/Groceries-Masale/everestkashmirilal100g.png" },
+      { name: "Sabji Masala 100gm", price: 65, image: "images/Groceries-Masale/everestsabjimasala100g.png" }, 
+      { name: "Sabji Masala 50gm", price: 35, image: "images/Groceries-Masale/everestsabjimasala100g.png" }, 
+      { name: "Cumin Powder 100gm", price: 95, image: "images/Groceries-Masale/everestcuminpowder50g.png" }, 
+      { name: "Cumin Powder 50gm", price: 50, image: "images/Groceries-Masale/everestcuminpowder50g.png" }, 
+      { name: "Tea Masala 100gm", price: 120, image: "images/Groceries-Masale/everestteamasala100g.png" },
+      { name: "Pani Puri Masala 50gm", price: 38, image: "images/Groceries-Masale/everestpanipurimasala50g.png" }, 
+      { name: "Aalo Sabji Masala 50gm", price: 42, image: "images/Groceries-Masale/everestaalosabjimasala50g.jpg" }, 
+      { name: "Dry ginger(sonth) Powder 50gm", price: 45, image: "images/Groceries-Masale/everestsonthpowder50g.png" },
+      { name: "Black Pepper Powder 50gm", price: 75, image: "images/Groceries-Masale/everestblackpepperpowder50g.png" },
+      { name: "Jalani Too Good Masala(pack of 10)", price: 50, image: "images/Groceries-Masale/jalanitoogoodmasala.png" },
+      { name: "Meggi Masala", price: 5, image: "images/Groceries-Masale/meggimasala.png" },
+      { name: "Pasta Masala", price: 5, image: "images/Groceries-Masale/pastamasala.png" },
+      { name: "Peri Peri Masala", price: 5, image: "images/Groceries-Masale/periperimasala.png" },
+      { name: "Fried Rice Masala", price: 10, image: "images/Groceries-Masale/friedricemasala.png" },
+      { name: "Chouwmien Masala", price: 10, image: "images/Groceries-Masale/chouwmienmasala.png" },
+      { name: "Veg Manchurian Masala", price: 10, image: "images/Groceries-Masale/vegmanchurianmasala.png" },
     ]
   },
   {
@@ -163,22 +163,44 @@ const categories = [
   {
     name: "Groceries-Rice",
     items:[
-      { name: "Fortune Rozana 1kg", price: 95, image: "images/fortunerozana1kg.jpg" },
-      { name: "Fortune Biryani 1kg", price: 140, image: "images/fortunebiryani1kg.jpg" },
-      { name: "Fortune Super(offer:1+1) 2kg", price: 199, image: "images/fortunesuper2kg.jpg" },
-      { name: "Fortune Mogra 5kg", price: 300, image: "images/fortunemogra5kg.jpg" },
-      { name: "Fortune Mini Mogra 10kg", price: 490, image: "images/fortuneminimogra10kg.jpg" },
-      { name: "Fortune Mini Mogra II 10kg", price: 450, image: "images/fortuneminimogra2_10kg.jpg" },
-      { name: "Fortune Mogra 10kg", price: 590, image: "images/fortunemogra10kg.jpg" },
-      { name: "Kohinoor Rozana 1kg", price: 80, image: "images/kohinoorozana1kg.jpg" },
-      { name: "Kohinoor Super(offer:1+1) 2kg", price: 199, image: "images/kohinoorsuper2kg.jpg" },
-      { name: "Kohinoor Mogra 5kg", price: 290, image: "images/kohinoormogra5kg.jpg" },
-      { name: "Kohinoor Mini Mogra 5kg", price: 250, image: "images/kohinoorminimogra5kg.jpg" },
-      { name: "Kohinoor Mogra 10kg", price: 580, image: "images/kohinoormogra10kg.jpg" },
-      { name: "Kohinoor  Mini Mogra 10kg", price: 480, image: "images/kohinoorminimogra10kg.jpg" },
-      { name: "High King(loose) 1kg", price: 100, image: "images/highkingloose1kg.jpg" },
-      { name: "High King(packing) 10kg", price: 920, image: "images/highkingpacking10kg.jpg" },
-      { name: "Full Grain(loose) 1kg", price: 100, image: "images/fullgrainloose1kg.jpg" },
+      { name: "Fortune Rozana Gold 1kg", price: 95, image: "images/Groceries-Rice/fortunerozana1kg.png" },
+      { name: "Fortune Biryani 1kg", price: 140, image: "images/Groceries-Rice/fortunebiryani1kg.png" },
+      { name: "Fortune Super(offer:1+1) 2kg", price: 199, image: "images/Groceries-Rice/fortunesuper2kg.png" },
+      { name: "Fortune Mogra 5kg", price: 300, image: "images/Groceries-Rice/fortunemogra5kg.png" },
+      { name: "Fortune Mini Mogra 10kg", price: 490, image: "images/Groceries-Rice/fortuneminimogra5kg.png" },
+      { name: "Fortune Mini Mogra II 10kg", price: 450, image: "images/Groceries-Rice/fortuneminimogra25kg.png" },
+      { name: "Fortune Mogra 10kg", price: 590, image: "images/Groceries-Rice/fortunemogra5kg.png" },
+      { name: "Kohinoor Rozana 1kg", price: 80, image: "images/Groceries-Rice/kohinoorrozana.png" },
+      { name: "Kohinoor Super(offer:1+1) 2kg", price: 199, image: "images/Groceries-Rice/kohinoorsuper2kg.png" },
+      { name: "Kohinoor Mogra 5kg", price: 290, image: "images/Groceries-Rice/kohinoormogra5kg.png" },
+      { name: "Kohinoor Mini Mogra 5kg", price: 250, image: "images/Groceries-Rice/kohinoorminimogra5kg.png" },
+      { name: "Kohinoor Mogra 10kg", price: 580, image: "images/Groceries-Rice/kohinoormogra10kg.png" },
+      { name: "Kohinoor  Mini Mogra 10kg", price: 480, image: "images/Groceries-Rice/kohinoorminimogra10kg.png" },
+      { name: "High King(loose) 1kg", price: 100, image: "images/Groceries-Rice/highkingloose1kg.jpg" },
+      { name: "High King(packing) 10kg", price: 920, image: "images/Groceries-Rice/highkingpacking10kg.jpg" },
+      { name: "Full Grain(loose) 1kg", price: 100, image: "images/Groceries-Rice/fullgrainloose1kg.jpg" },
+    ]
+  },
+  {
+    name: "Groceries-Tea",
+    items:[
+      { name: "Hatadi 250g", price: 75 },
+      { name: "Lal Ghoda 250g", price: 90 },
+      { name: "Lal Ghoda 1kg", price: 310 },
+      { name: "Tata Agni 250g", price: 60 },
+      { name: "Tata Agni 1kg", price: 235 },
+      { name: "Tata Agni Elaichi 250g", price: 90 },
+      { name: "Taaza 250g", price: 60 },
+      { name: "Red Label 250g", price: 130 },
+      { name: "Wagh Bakri 250g", price: 145 },
+      { name: "Taj Mahal 250g", price: 170 },
+      { name: "Liptop Green Tea Honey & Lemon(10 bag)", price: 75 },
+      { name: "Liptop Green Tea Honey & Lemon(25 bag)", price: 170 },
+      { name: "Tetley Green Tea 100g", price: 160 },
+      { name: "Organic India Green Tea Tulsi (25 bag)", price: 190 },
+      { name: "Organic India Green Tea Lemon & Honey (25 bag)", price: 220 },
+      { name: "Organic India Green Tea Lemon & Ginger (25 bag)", price: 210 },
+      { name: "Organic India Green Tea Classic (25 bag)", price: 210 },
     ]
   },
   {
@@ -282,7 +304,7 @@ const categories = [
     ]
   },
   {
-    name: "Bathing-Soaps",
+    name: "Bathing Soaps",
     items:[
       { name: "Dove (50g psc)", price: 25 },
       { name: "Dove (100g psc)", price: 65 },
@@ -335,24 +357,222 @@ const categories = [
       { name: "Medimix (3 x 125g set)", price: 145 },
     ]
   },
+  {
+    name: "Washing Soaps",
+    items:[
+      { name: "Surf Excel Bar", price: 10 },
+      { name: "Surf Excel Bar 250g", price: 38 },
+      { name: "Surf Excel (4 x 200g set)", price: 125 },
+      { name: "Rin bar", price: 10 },
+      { name: "Rin bar 250g", price: 25 },
+      { name: "Rin (4 x 250g set)", price: 100 },
+      { name: "Nirma Super", price: 10 },
+      { name: "Rachna 250g", price: 25 },
+      { name: "Ghadi ", price: 5 },
+      { name: "Ghadi ", price: 10 },
+      { name: "Oswal 1kg(4 x 250g)", price: 100 },
+      { name: "Raj Soap 1kg(4 x 250g)", price: 130 },
+      { name: "Raj Soap 600g", price: 90 },
+    ]
+  },
+  {
+    name: "Detergent Powder/Liquid",
+    items:[
+      { name: "Surf Excel Pouch", price: 10 },
+      { name: "Surf Excel Easy Wash 1/2kg", price: 68 },
+      { name: "Surf Excel Easy Wash 1kg", price: 132 },
+      { name: "Surf Excel Easy Wash 3kg", price: 370 },
+      { name: "Surf Excel Quick Wash 1/2kg", price: 113 },
+      { name: "Surf Excel Quick Wash 1kg", price: 225 },
+      { name: "Surf Excel Matic(Top Load) Surf 1kg", price: 265 },
+      { name: "Surf Excel Matic(Top Load) Liquid 1ltr", price: 149 },
+      { name: "Surf Excel Matic(Front Load)Liquid 1ltr", price: 169 },
+      { name: "Henko 1kg", price: 110 },
+      { name: "Henko Matic(Top Load) Liquid Pouch", price: 10 },
+      { name: "Henko Matic(Front Load) Liquid Pouch", price: 10 },
+      { name: "Henko Matic(Top Load) Liquid 1ltr", price: 140 },
+      { name: "Rin 1kg", price: 97 },
+      { name: "Rin Aala ", price: 87 },
+      { name: "Ariel Pouch", price: 10 },
+      { name: "Ariel Perfect Wash 1/2kg", price: 68 },
+      { name: "Ariel Perfect Wash 1kg", price: 135 },
+      { name: "Wheel 1/2kg", price: 37 },
+      { name: "Wheel 1kg", price: 70 },
+      { name: "Wheel 2kg", price: 135 },
+      { name: "Wheel 4kg", price: 250 },
+      { name: "Ghadi Detergent 1/2kg", price: 35 },
+      { name: "Ghadi Detergent 1kg", price: 67 },
+      { name: "Ghadi Machine Wash 1kg", price: 110 },
+      { name: "Tide Double Power 1/2kg", price: 63 },
+      { name: "Tide Double Power 1kg", price: 127 },
+      { name: "Tide Lemon 1kg", price: 83 },
+      { name: "Tide Double Power(offer: Bucket Free) 6kg", price: 660 },
+      { name: "Mr.White 7kg", price: 520 },
+      { name: "Ezee pouch", price: 10 },
+      { name: "Ezee Bottle 250g", price: 67 },
+      { name: "Ezee Bottle 500g", price: 130 },
+      { name: "Ezee Bottle 1kg", price: 225 },
+      { name: "Ezee Bottle 2kg", price: 440 },
+      { name: "Ujala(offer:Exo Soap Worth 10rs) 75ml", price: 35 },
+      { name: "Ujala 250ml", price: 80 },
+      { name: "Comfort Green 210ml", price: 60 },
+      { name: "Comfort Pink 210ml", price: 60 },
+      { name: "Comfort Blue 210ml", price: 58 },
+      { name: "Comfort Green 750ml", price: 230 },
+      { name: "Comfort Pink 750ml", price: 230 },
+      { name: "Comfort Blue 750ml", price: 230 },
+    ]
+  },
+  {
+    name: "Dishwasher Bar/Liquid",
+    items:[
+      { name: "Vim bar", price: 10 },
+      { name: "Vim bar 300g", price: 30 },
+      { name: "Vim bar (4 psc set)", price: 30 },
+      { name: "Vim bar (3 x 200g set)", price: 65 },
+      { name: "Vim Tub ", price: 60 },
+      { name: "Vim Liquid pouch", price: 20 },
+      { name: "Vim Liquid Bottle 250ml", price: 60 },
+      { name: "Vim Liquid Pouch 500ml", price: 109 },
+      { name: "Vim Liquid Bottle 500ml", price: 130 },
+      { name: "Vim Liquid Bottle 750ml", price: 180 },
+      { name: "Exo Bar", price: 10 },
+      { name: "Exo Bar 300g", price: 30 },
+      { name: "Exo Bar (4 psc set)", price: 30 },
+      { name: "Exo Bar (4 x 300g set)", price: 90 },
+      { name: "Exo Tub ", price: 60 },
+      { name: "Xpert bar", price: 30 },
+      { name: "Emami Emasol bar", price: 10 },
+      { name: "Farata Tub", price: 40 },
+      { name: "Prill Liquid 250ml", price: 55 },
+      { name: "Prill Liquid 750ml", price: 200 },
+      { name: "Swash Liquid Bottle 1ltr", price: 100 },
+    ]
+  },
+  {
+    name: "Cleaners",
+    items:[
+      { name: "Black Phenyl 500ml", price: 85 },
+      { name: "Swash Orange Phenyl 1ltr", price: 90 },
+      { name: "Swash Jasmine Phenyl 1ltr", price: 90 },
+      { name: "Swash Rose Phenyl 1ltr", price: 90 },
+      { name: "Swash Neem & Pine Phenyl 1ltr", price: 90 },
+      { name: "Lizol Neem 500ml", price: 113 },
+      { name: "Lizol Floral 500ml", price: 113 },
+      { name: "Lizol Lime 500ml", price: 113 },
+      { name: "Blue Harpic 200ml", price: 44 },
+      { name: "Blue Harpic 500ml", price: 107 },
+      { name: "Red Harpic 200ml", price: 45 },
+      { name: "Red Harpic 500ml", price: 112 },
+      { name: "Colin 200ml", price: 10 },
+      { name: "Colin 500ml", price: 10 },
+      { name: "Drainex Pouch", price: 30 },
+    ]
+  },
+  {
+    name: "Room Spray/Bathroom Freshners",
+    items:[
+      { name: "Odonil Set", price: 85 },
+      { name: "Odonil Set", price: 85 },
+      { name: "Odonil Spray Room Freshner", price: 85 },
+      { name: "Odonil Spray Room Freshner", price: 85 },
+      { name: "Godrej Air Pocket ", price: 85 },
+      { name: "Godrej Air Pocket ", price: 85 },
+      { name: "Godrej Air Pocket ", price: 85 },
+      { name: "Godrej Air Room Freshner", price: 85 },
+    ]
+  },
+  {
+    name: "Mosquito Repellent",
+    items:[
+      { name: "Black Hit Spray", price: 50 },
+      { name: "Black Hit 200ml", price: 85 },
+      { name: "Black Hit 400ml", price: 85 },
+      { name: "Black Hit 600ml", price: 85 },
+      { name: "Black Hit Lime 200ml", price: 85 },
+      { name: "Black Hit Lime 400ml", price: 85 },
+      { name: "Black Hit Lime 600ml", price: 85 },
+      { name: "Red Hit 200ml", price: 85 },
+      { name: "Red Hit 400ml", price: 85 },
+      { name: "Red Hit 600ml", price: 85 },
+      { name: "Mortien Spray 400ml", price: 85 },
+      { name: "Maxo Coil 8hr", price: 85 },
+      { name: "Maxo Coil 12hr", price: 85 },
+      { name: "Maxo Set(Machine + Refill)", price: 85 },
+      { name: "Maxo Refill", price: 85 },
+      { name: "All Out Set(Machine + Refill)", price: 85 },
+      { name: "All Out Refill", price: 85 },
+    ]
+  },
+  {
+    name: "HandWash",
+    items:[
+      { name: "Dettol Combo(Refill + Bottle) Sensitive", price: 50 },
+      { name: "Dettol Combo(Refill + Bottle) Original", price: 50 },
+      { name: "Dettol Powder Handwash", price: 10 },
+      { name: "Dettol Sensitive 750ml", price: 50 },
+      { name: "Dettol Skincare750ml", price: 50 },
+      { name: "Dettol original 750ml", price: 50 },
+      { name: "Santoor Classic 750ml", price: 50 },
+      { name: "Lifeboy 750ml", price: 50 },
+      { name: "Godrej Magic Powder Handwash Yellow", price: 10 },
+      { name: "Godrej Magic Powder Handwash Green", price: 10 },
+    ]
+  },
+  {
+    name: "Sanitry Pads",
+    items:[
+      { name: "Stayfree Regular 6pcs", price: 37 },
+      { name: "Stayfree Regular 18pcs", price: 105 },
+      { name: "Stayfree XL 6pcs", price: 42 },
+      { name: "Stayfree XL 18pcs", price: 120 },
+      { name: "Whisper Regular 6pcs", price: 37 },
+      { name: "Whisper XL 6pcs", price: 42 },
+      { name: "Whisper Ultra 6pcs", price: 50 },
+      { name: "Whisper Ultra Aloevera 7pcs", price: 95 },
+      { name: "Whisper Ultra Aloevera 14pcs", price: 190 },
+      { name: "Whisper Ultra Aloevera 48pcs", price: 500 },
+      { name: "Sofy Aloevera XL 6pcs", price: 42 },
+      { name: "Sofy Aloevera XL 14pcs", price: 140 },
+      { name: "Sofy Aloevera XL+ 15pcs", price: 185 },
+    ]
+  },
+  {
+    name: "Diapers",
+    items:[
+      { name: "Mamy Poko Pants Extra Absorb NB 4pcs", price: 50 },
+      { name: "Mamy Poko Pants Extra Absorb NB 8pcs", price: 50 },
+      { name: "Mamy Poko Pants S 4pcs", price: 50 },
+      { name: "Mamy Poko Pants S 10pcs", price: 50 },
+      { name: "Mamy Poko Pants S 38pcs", price: 50 },
+      { name: "Mamy Poko Pants M 4pcs", price: 50 },
+      { name: "Mamy Poko Pants M 8pcs", price: 50 },
+      { name: "Mamy Poko Pants M 30pcs", price: 50 },
+      { name: "Mamy Poko Pants L 4pcs", price: 50 },
+      { name: "Mamy Poko Pants L 7pcs", price: 50 },
+      { name: "Mamy Poko Pants L 28pcs", price: 50 },
+      { name: "Mamy Poko Pants XL 4pcs", price: 50 },
+      { name: "Mamy Poko Pants XL 6pcs", price: 50 },
+      { name: "Mamy Poko Pants XL 22pcs", price: 50 },
+      { name: "Babyhug S 10pcs", price: 50 },
+      { name: "Babyhug S 42pcs", price: 50 },
+      { name: "Babyhug M 16pcs", price: 50 },
+      { name: "Babyhug M 16pcs", price: 50 },
+      { name: "Babyhug XL 11pcs", price: 50 },
+    ]
+  },
 ];
 
 const container = document.getElementById("shop-categories");
 
-// Render function to display filtered categories/items
 function renderCategories(filterText = "") {
   container.innerHTML = "";
 
   categories.forEach((category, catIdx) => {
-    // Check if category name matches search text
     const categoryMatches = category.name.toLowerCase().includes(filterText.toLowerCase());
-
-    // Filter items based on search text
     const filteredItems = category.items.filter(item =>
       item.name.toLowerCase().includes(filterText.toLowerCase())
     );
-
-    // If category matches or any item matches, display category
     if (categoryMatches || filteredItems.length > 0) {
       const catDiv = document.createElement("div");
       catDiv.className = "category";
@@ -363,8 +583,6 @@ function renderCategories(filterText = "") {
       container.appendChild(catDiv);
 
       const itemsContainer = catDiv.querySelector(`#items${catIdx}`);
-
-      // Show all items if category name matches, else show filtered items
       const itemsToShow = categoryMatches ? category.items : filteredItems;
 
       itemsToShow.forEach((item, idx) => {
@@ -385,8 +603,6 @@ function renderCategories(filterText = "") {
       });
     }
   });
-
-  // Reattach toggle listeners
   document.querySelectorAll('.category-header').forEach(header => {
     header.addEventListener('click', () => {
       const index = header.dataset.index;
@@ -402,11 +618,7 @@ function renderCategories(filterText = "") {
     });
   });
 }
-
-// Initial render
 renderCategories();
-
-// Add to cart function with notification
 window.addToCart = (catIdx, itemIdx) => {
   const qty = parseInt(document.getElementById(`qty${catIdx}_${itemIdx}`).value);
   if (qty < 1) return showNotification("Invalid quantity");
@@ -417,8 +629,6 @@ window.addToCart = (catIdx, itemIdx) => {
   localStorage.setItem("cart", JSON.stringify(cart));
   showNotification("Item added to cart");
 };
-
-// Image modal functionality
 window.expandImage = (src) => {
   const modal = document.getElementById("imageModal");
   const modalImg = document.getElementById("modalImg");
@@ -436,13 +646,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 };
-
-// Search bar event listener
 document.getElementById("searchBar").addEventListener("input", (e) => {
   renderCategories(e.target.value);
 });
-
-// Notification function
 function showNotification(message) {
   const notification = document.getElementById("notification");
   notification.textContent = message;
